@@ -1,0 +1,8 @@
+,MAE,RMSE,MAPE_%,R2
+Ridge (90-day horizon),12.497,15.343,2.859,0.866
+Linear Regression (1-day ahead),12.522,15.352,2.869,0.866
+Ridge (1-day ahead),12.788,15.54,2.934,0.863
+Gradient Boosting (90-day horizon),15.251,18.447,3.544,0.807
+Gradient Boosting (1-day ahead),17.206,21.471,3.993,0.739
+Random Forest (1-day ahead),19.071,24.103,4.368,0.671
+Seasonal Naive (364d),68.538,73.858,15.592,-2.093
